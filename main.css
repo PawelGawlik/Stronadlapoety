@@ -1,0 +1,472 @@
+@font-face{
+    font-family: Amatic;
+    src:url("amatic-bold.ttf")format("truetype");
+}
+@font-face{
+    font-family: Azt;
+    src:url("alexandra-zeferino-three.ttf")format("truetype");
+}
+html{
+    background-image: url(wiersze2.png);
+    
+}
+body{
+    height: 64.6527777778vw;
+
+}
+h1{
+    font-family: Amatic;
+    background-color: yellow;
+    letter-spacing: 25px;
+    text-align: center;
+    height: 100px;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0;
+    border-bottom: yellow solid 1px;
+}
+h2,label,input,form{
+    font-family: Azt;
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    letter-spacing: 13px;
+    font-size: 60px;
+    font-weight: 700;
+    height: 75px;
+    margin: 0;
+    border-top: yellow solid 1px;
+    border-bottom: yellow solid 1px;
+    }
+input{
+    padding: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    color: darkgreen;
+    width: 420px;
+    position: relative;
+    }
+label{
+    border-bottom: 0;
+    color: darkgreen;
+}form{
+    height: 78px;
+    
+}
+.poemat1,textarea{
+
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    padding-top: 45px;
+    font-size: 25px;
+    font-family: Amatic;
+    font-weight: 900;
+    letter-spacing: +2px;
+    margin: 2px 10px;
+    vertical-align: top;
+}
+textarea{
+    z-index: -1;
+    position: absolute;
+    border-width: 0;
+    padding: 7px;
+    padding-bottom: 10px;
+    transform: translateX(-15.2332902778vw);
+    text-align: left;
+    overflow: auto;
+}
+.A{
+    background-color: lawngreen;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 311.600px;
+    left: 975px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-family: Amatic;
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    z-index: 3;
+    
+}
+.kontener{
+    
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.wiersz{
+    width: 100%;
+    height: 16%;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    margin: 2px;
+    position: relative;
+    
+    
+    
+}
+.col-l-1{
+    width: 14%;
+    height: 100%;
+    display: inline-block;
+}
+.poemat2{
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 14%;
+    height: 10%;
+    transform: translate(-15.2333vw,10.23958vw);
+    margin: 2px 10px;
+    opacity: 0;
+    background-color: red;
+    text-align: center;
+}
+.poemat3, button{
+    font-family: Amatic;
+    display: inline-block;
+    font-size: 35px;
+    height: 100%;
+    width: 33%;
+    z-index: -1;
+    color: black;
+}
+.poemat3{
+    text-align: left;
+}
+.hidden-l{
+    visibility: hidden;
+}
+.green{
+    background-color: green;
+    color: black;
+}
+.blue{
+    background-color: blue;
+    color: black;
+}
+.chocolate{
+    background-color: chocolate;
+    color: darkblue;
+}
+.deeppink{
+    background-color: deeppink;
+    color: black;
+}
+.hidden{}
+
+
+@media all and (max-width:309px){
+    h1{
+        letter-spacing: 2px;
+        font-size: 32px;
+        height: 38px;
+    }
+    h2,label,input,form{
+        font-size: 24px;
+        letter-spacing: 1px;
+        height: 28px;
+    }
+    form{
+        height: 32px;
+    }
+    input{
+        width: 112px;
+    }
+    .A{
+        font-size: 12px;
+        width: 100px;
+        height: 68px;
+        padding: 11px 10px;
+        left: 170px;
+        top: 124.440px;
+    }
+    textarea{
+        transform: translate(-19.7461575917vw);
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 15px;
+        font-size: 8px;
+    
+    }
+    .poemat2{
+        transform: translate(-19.7461vw, 47.5234vw);
+    }
+    .hidden{
+        display: none;
+    }
+    .wiersz{
+        height: 25%;
+    }
+    .visible{
+        visibility: visible;
+    }
+
+}
+@media all and (min-width:310px) and (max-width:340px){
+ h1{
+     letter-spacing: 4px;
+     font-size: 32px;
+     height: 38px;
+   }
+    h2,label,input,form{
+        font-size: 24px;
+        letter-spacing: 2px;
+        height: 28px;
+    }
+    form{
+        height: 32px;
+    }
+    input{
+        width: 120px;
+    }
+    .A{
+        font-size: 12px;
+        width: 100px;
+        height: 68px;
+        padding: 11px 10px;
+        left: 200px;
+        top: 124.440px;
+        
+    }
+    textarea{
+        transform: translateX(-19.5461575917vw);
+        height: 45px;
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 16px;
+        font-size: 8px;
+    }
+    .poemat2{
+        transform: translate(-19.5461vw,46.5234vw);
+    }
+    .hidden{
+        display: none;   
+    }
+    .wiersz{
+        height: 25%;
+    }
+    .visible{
+        visibility: visible;
+    }
+    
+
+}
+@media all and (min-width:341px) and (max-width:375px){
+     h1{
+     letter-spacing: 4px;
+     font-size: 32px;
+     height: 38px;
+   }
+    h2,label,input,form{
+        font-size: 24px;
+        letter-spacing: 2px;
+        height: 28px;
+    }
+    form{
+        height: 32px;
+    }
+    input{
+        width: 120px;
+    }
+    .A{
+        font-size: 12px;
+        width: 100px;
+        height: 68px;
+        padding: 11px 10px;
+        left: 200px;
+        top: 124.440px;
+        
+    }
+    textarea{
+        transform: translateX(-18.7361575917vw);
+        height: 45px;
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    .poemat2{
+        transform: translate(-18.7361vw,39.5234vw);
+    }
+    .hidden{
+        display: none;   
+    }
+    .wiersz{
+        height: 25%;
+    }
+    .visible{
+        visibility: visible;
+    }
+    
+}
+@media all and (min-width:376px) and (max-width:475px){
+    h1{
+        letter-spacing: 3px;
+        font-size: 50px;
+        height: 64px;
+    }
+    h2,label,input,form{
+        font-size: 37px;
+        letter-spacing: 2px;
+        height: 48px;
+    }
+    form{
+        height: 50px;
+    }
+    input{
+        width: 170px;
+    }
+    .A{
+        font-size: 13px;
+        width: 120px;
+        height: 70px;
+        left: 270px;
+        padding: 12px 14px;
+        top: 200.5px;
+    }
+    textarea{
+        transform: translateX(-18.1753vw);
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 14px;
+        font-size: 7px;
+    }
+    .poemat2{
+        transform: translate(-18.1753vw,34.5234vw);
+    }
+    .hidden{
+        display: none;
+    }
+    .visible{
+        visibility: visible;
+    }
+}
+@media all and (min-width:475px) and (max-width:850px){
+    h1{ 
+        letter-spacing: 12px;
+        height: 80px;
+        font-size: 64px;
+    
+     }
+    h2,label,input,form{
+        font-size: 48px;
+        letter-spacing: 6px;
+        height: 60px;
+    }
+    form{
+        height: 62px;
+    }
+    input{
+        width: 280px;
+    }
+    .A{
+        font-size: 18px;
+        width: 160px;
+        height: 80px;
+        padding: 12px;
+        left: 550px;
+        top: 249.880px;
+    }
+    textarea{
+        transform: translateX(-16.31vw);
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 26px;
+        font-size: 13px;
+    }
+    .poemat2{
+        transform: translate(-16.31vw,19.0234vw);
+    }
+}
+@media all and (min-width:850px) and (max-width:1200px){
+    h1{
+        letter-spacing: 20px;
+        font-size: 64px;
+        height: 80px
+    }
+    h2,label,input,form{
+        font-size: 48px;
+        letter-spacing: 10px;
+        height: 60px; 
+    }
+    form{
+        height: 62px;
+    }input{
+        width: 330px;
+    }
+    .A{
+        font-size: 17px;
+        width: 212px;
+        height: 71px;
+        padding: 14px;
+        left: 750px;
+        top: 249.880px;
+    }
+    textarea{
+        transform: translateX(-15.73vw);
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 34px;
+        font-size: 17.5px;
+    }
+    .poemat2{
+        transform: translate(-15.73vw,14.3439vw);
+    }
+}
+@media all and (min-width:1700px){
+    h1{
+        letter-spacing: 40px;
+        font-size: 128px;
+        height: 160px;
+        border-bottom-width: 2px;
+    }
+    h2,label,input,form{
+        font-size: 96px;
+        letter-spacing: 20px;
+        height: 120px;
+        border-top-width: 4px; 
+    }
+    form{
+        height: 125px;
+    }
+    input{
+        width: 670px;
+    }
+    .A{
+        font-size: 48px;
+        width: 600px;
+        height: 200px;
+        padding: 40px;
+        left: 1600px;
+        top: 502.760px;
+    }
+    textarea{
+        transform: translateX(-14.69vw);
+        padding: 7px;
+    }
+    .poemat1{
+        padding-top: 88px;
+        font-size: 44px;
+    }
+    .poemat2{
+        transform: translate(-14.69vw,5.8439vw)
+    }
+}
